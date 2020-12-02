@@ -1,8 +1,3 @@
-学习笔记
-
-
-
-```go
 func DaoNotExists(err error) bool {
 	return errors.Is(err, sql.ErrNoRows)
 }
@@ -26,5 +21,3 @@ func Service() {
 	}
 	// 数据处理
 }
-
-```
